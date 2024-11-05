@@ -1,0 +1,48 @@
+.featured {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.cards img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+.card-text {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card-text a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Hover effect for cards */
+.cards:hover .card-text {
+    color: #ff0c80;
+}
+
+.card-text a:hover {
+    color: #ff0c80;
+}
+
+.cards:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}

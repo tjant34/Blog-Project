@@ -1,0 +1,49 @@
+@import url('styles.css');
+@import url('./navlinks.css');
+@import url('./cards.css');
+@import url('./footer.css');
+
+.blogbio-img {
+    display: block;
+    max-width: 100%;
+}
+
+.blogtitle {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.blogpreview {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 18px;
+}
+
+h3 {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* Blockquote styles */
+blockquote {
+    border: 4px dotted #ff0c80;
+    padding: 5px;
+    margin-bottom: 0;
+    word-wrap: break-word; /* Ensures long words wrap onto the next line */
+    overflow-wrap: break-word; /* Helps with word wrapping in modern browsers */
+}
+
+/* H3 hover */
+h3:hover {
+    color: black;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 20px;
+    text-align: left;
+}

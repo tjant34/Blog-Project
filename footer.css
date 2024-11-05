@@ -1,0 +1,26 @@
+footer {
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.socials i {
+    font-size: 42px;
+    color: #10edff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect for social icons */
+.socials i:hover {
+    color: #ff0c80;
+    transform: scale(1.1);
+}

@@ -1,0 +1,42 @@
+.navlinks {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navlinks li {
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, font-weight 0.3s ease;
+}
+
+.navlinks li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #262626;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+/* Nav links hover styles */
+.navlinks li:hover {
+    background-color: #ff0c80;
+    font-weight: bold;
+}
+
+.navlinks li a:hover {
+    color: #fff;
+}
+
+.navlinks li.active {
+    background-color: #ff0c80; /* Keeps the same background as hover */
+    font-weight: bold; /* Highlights the active link */
+}
+
+.navlinks li.active a {
+    color: #fff; /* Keeps the text visible */
+}
